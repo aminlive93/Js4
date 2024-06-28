@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #24353F;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.signup {
+    background-color: #24353F;
+}
+
+.signup h1 {
+    font-size: 40px;
+}
+
+.success {
+    color: #27A745;
+}
+
+::placeholder {
+    color:gray ;
+}
+
+.form-control {
+    background-color: transparent; 
+} 
+
+::placeholder {
+    color: white !important;
+}
+
+input[type=submit]:focus {
+    background-color:transparent;
+  }
+
+a {
+    text-decoration: none;
+}
+
+form a:hover {
+    text-decoration: underline;
+}
+
+.menubar {
+    height: 50px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+span {
+    font-size:30px ;
+}
